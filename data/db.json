@@ -1,0 +1,424 @@
+{
+  "users": [
+    {
+      "id": "usr_admin_1",
+      "name": "Super Admin",
+      "email": "ac.repair.in.dubai3@gmail.com",
+      "phone": "+92 300 0000000",
+      "role": "super_admin",
+      "shopId": null,
+      "createdAt": "2026-05-25T20:39:25.111Z"
+    },
+    {
+      "id": "usr_owner_1",
+      "name": "Chaudhary Nabeel",
+      "email": "owner@chakki.com",
+      "phone": "+92 300 1234567",
+      "role": "owner",
+      "shopId": "shp_demo_1",
+      "createdAt": "2026-05-25T20:39:25.112Z"
+    },
+    {
+      "id": "usr_manager_1",
+      "name": "Amjad Ali",
+      "email": "manager@chakki.com",
+      "phone": "+92 321 7654321",
+      "role": "manager",
+      "shopId": "shp_demo_1",
+      "createdAt": "2026-05-25T20:39:25.112Z"
+    }
+  ],
+  "shops": [
+    {
+      "id": "shp_demo_1",
+      "name": "Pak Grain Chakki",
+      "status": "active",
+      "subscription": "premium",
+      "ownerId": "usr_owner_1",
+      "createdAt": "2026-05-25T20:39:25.112Z",
+      "ntnGst": "GST-443210-9",
+      "address": "Chakki Stop, Main Baazar, Lahore",
+      "phone": "+92 300 1234567",
+      "email": "owner@chakki.com"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod_1",
+      "shopId": "shp_demo_1",
+      "name": "Premium Chakki Atta",
+      "sku": "FL-CK-01",
+      "barcode": "890001",
+      "unit": "KG",
+      "costPrice": 65,
+      "sellingPrice": 80,
+      "stockQuantity": 1250,
+      "minStockAlert": 150,
+      "category": "Flour",
+      "createdAt": "2026-05-25T20:39:25.112Z",
+      "updatedAt": "2026-05-25T20:39:25.112Z"
+    },
+    {
+      "id": "prod_2",
+      "shopId": "shp_demo_1",
+      "name": "Fine Maida",
+      "sku": "FL-MD-02",
+      "unit": "KG",
+      "costPrice": 80,
+      "sellingPrice": 105,
+      "stockQuantity": 420,
+      "minStockAlert": 100,
+      "category": "Flour",
+      "createdAt": "2026-05-25T20:39:25.112Z",
+      "updatedAt": "2026-05-25T20:39:25.112Z"
+    },
+    {
+      "id": "prod_3",
+      "shopId": "shp_demo_1",
+      "name": "Suji (Semolina)",
+      "sku": "FL-SJ-03",
+      "unit": "KG",
+      "costPrice": 85,
+      "sellingPrice": 110,
+      "stockQuantity": 180,
+      "minStockAlert": 50,
+      "category": "Flour",
+      "createdAt": "2026-05-25T20:39:25.112Z",
+      "updatedAt": "2026-05-25T20:39:25.112Z"
+    },
+    {
+      "id": "prod_4",
+      "shopId": "shp_demo_1",
+      "name": "Bran (Wheat Chokar)",
+      "sku": "FD-CH-04",
+      "unit": "KG",
+      "costPrice": 40,
+      "sellingPrice": 55,
+      "stockQuantity": 80,
+      "minStockAlert": 100,
+      "category": "Feed",
+      "createdAt": "2026-05-25T20:39:25.112Z",
+      "updatedAt": "2026-05-25T20:39:25.112Z"
+    },
+    {
+      "id": "prod_5",
+      "shopId": "shp_demo_1",
+      "name": "Organic Wheat Bags",
+      "sku": "GR-WT-05",
+      "unit": "Bag",
+      "costPrice": 2600,
+      "sellingPrice": 3100,
+      "stockQuantity": 35,
+      "minStockAlert": 10,
+      "category": "Grain",
+      "createdAt": "2026-05-25T20:39:25.112Z",
+      "updatedAt": "2026-05-25T20:39:25.112Z"
+    }
+  ],
+  "inventoryLogs": [
+    {
+      "id": "log_prod_1",
+      "shopId": "shp_demo_1",
+      "productId": "prod_1",
+      "productName": "Premium Chakki Atta",
+      "type": "in",
+      "quantity": 1250,
+      "unit": "KG",
+      "note": "Initial base stocks",
+      "createdBy": "usr_owner_1",
+      "createdAt": "2026-05-25T20:39:25.112Z"
+    },
+    {
+      "id": "log_prod_2",
+      "shopId": "shp_demo_1",
+      "productId": "prod_2",
+      "productName": "Fine Maida",
+      "type": "in",
+      "quantity": 420,
+      "unit": "KG",
+      "note": "Initial base stocks",
+      "createdBy": "usr_owner_1",
+      "createdAt": "2026-05-25T20:39:25.112Z"
+    },
+    {
+      "id": "log_prod_3",
+      "shopId": "shp_demo_1",
+      "productId": "prod_3",
+      "productName": "Suji (Semolina)",
+      "type": "in",
+      "quantity": 180,
+      "unit": "KG",
+      "note": "Initial base stocks",
+      "createdBy": "usr_owner_1",
+      "createdAt": "2026-05-25T20:39:25.112Z"
+    },
+    {
+      "id": "log_prod_4",
+      "shopId": "shp_demo_1",
+      "productId": "prod_4",
+      "productName": "Bran (Wheat Chokar)",
+      "type": "in",
+      "quantity": 80,
+      "unit": "KG",
+      "note": "Initial base stocks",
+      "createdBy": "usr_owner_1",
+      "createdAt": "2026-05-25T20:39:25.112Z"
+    },
+    {
+      "id": "log_prod_5",
+      "shopId": "shp_demo_1",
+      "productId": "prod_5",
+      "productName": "Organic Wheat Bags",
+      "type": "in",
+      "quantity": 35,
+      "unit": "Bag",
+      "note": "Initial base stocks",
+      "createdBy": "usr_owner_1",
+      "createdAt": "2026-05-25T20:39:25.112Z"
+    }
+  ],
+  "customers": [
+    {
+      "id": "cust_1",
+      "shopId": "shp_demo_1",
+      "name": "Zaman Khan Bhatti",
+      "phone": "+92 300 9876543",
+      "address": "Mughalpura Town, Lahore",
+      "openingBalance": 0,
+      "creditBalance": 3400,
+      "createdAt": "2026-05-25T20:39:25.112Z"
+    },
+    {
+      "id": "cust_2",
+      "shopId": "shp_demo_1",
+      "name": "Karamat Sweet Palace",
+      "phone": "+92 321 4455667",
+      "address": "Main Market, Lahore",
+      "openingBalance": 5000,
+      "creditBalance": 12500,
+      "createdAt": "2026-05-25T20:39:25.112Z"
+    },
+    {
+      "id": "cust_3",
+      "shopId": "shp_demo_1",
+      "name": "Bano Bakers",
+      "phone": "+92 311 2233445",
+      "address": "Link Road, Lahore",
+      "openingBalance": 0,
+      "creditBalance": 0,
+      "createdAt": "2026-05-25T20:39:25.112Z"
+    }
+  ],
+  "suppliers": [
+    {
+      "id": "supp_1",
+      "shopId": "shp_demo_1",
+      "name": "Sharif Grain Dealers",
+      "phone": "+92 345 1122334",
+      "companyName": "Sharif & Sons Wheat Millers",
+      "outstandingBalance": 145000,
+      "createdAt": "2026-05-25T20:39:25.112Z"
+    },
+    {
+      "id": "supp_2",
+      "shopId": "shp_demo_1",
+      "name": "Malik Packaging",
+      "phone": "+92 333 4455660",
+      "companyName": "Malik Sacks Ltd",
+      "outstandingBalance": 12000,
+      "createdAt": "2026-05-25T20:39:25.112Z"
+    }
+  ],
+  "sales": [
+    {
+      "id": "sal_11",
+      "shopId": "shp_demo_1",
+      "invoiceNumber": "INV-1001",
+      "customerId": "cust_1",
+      "customerName": "Zaman Khan Bhatti",
+      "items": [
+        {
+          "id": "item_1",
+          "productId": "prod_1",
+          "productName": "Premium Chakki Atta",
+          "quantity": 40,
+          "unit": "KG",
+          "price": 80,
+          "cost": 65,
+          "total": 3200
+        },
+        {
+          "id": "item_2",
+          "productId": "prod_4",
+          "productName": "Bran (Wheat Chokar)",
+          "quantity": 10,
+          "unit": "KG",
+          "price": 55,
+          "cost": 40,
+          "total": 550
+        }
+      ],
+      "discount": 200,
+      "tax": 0,
+      "subtotal": 3750,
+      "total": 3550,
+      "totalCost": 3000,
+      "paymentMethod": "Cash",
+      "saleType": "Credit",
+      "status": "partial",
+      "amountPaid": 150,
+      "createdBy": "usr_owner_1",
+      "createdAt": "2026-05-23T20:39:25.112Z"
+    },
+    {
+      "id": "sal_12",
+      "shopId": "shp_demo_1",
+      "invoiceNumber": "INV-1002",
+      "customerName": "Walk-in Customer",
+      "items": [
+        {
+          "id": "item_3",
+          "productId": "prod_1",
+          "productName": "Premium Chakki Atta",
+          "quantity": 20,
+          "unit": "KG",
+          "price": 80,
+          "cost": 65,
+          "total": 1600
+        }
+      ],
+      "discount": 0,
+      "tax": 0,
+      "subtotal": 1600,
+      "total": 1600,
+      "totalCost": 1300,
+      "paymentMethod": "Cash",
+      "saleType": "Cash",
+      "status": "paid",
+      "amountPaid": 1600,
+      "createdBy": "usr_owner_1",
+      "createdAt": "2026-05-24T20:39:25.112Z"
+    },
+    {
+      "id": "sal_13",
+      "shopId": "shp_demo_1",
+      "invoiceNumber": "INV-1003",
+      "customerId": "cust_2",
+      "customerName": "Karamat Sweet Palace",
+      "items": [
+        {
+          "id": "item_4",
+          "productId": "prod_2",
+          "productName": "Fine Maida",
+          "quantity": 150,
+          "unit": "KG",
+          "price": 105,
+          "cost": 80,
+          "total": 15750
+        }
+      ],
+      "discount": 750,
+      "tax": 0,
+      "subtotal": 15750,
+      "total": 15000,
+      "totalCost": 12000,
+      "paymentMethod": "Bank",
+      "saleType": "Credit",
+      "status": "partial",
+      "amountPaid": 2500,
+      "createdBy": "usr_owner_1",
+      "createdAt": "2026-05-25T16:39:25.112Z"
+    }
+  ],
+  "expenses": [
+    {
+      "id": "exp_1",
+      "shopId": "shp_demo_1",
+      "category": "Electricity",
+      "amount": 4500,
+      "description": "Chakki Main Motor Bill for April",
+      "date": "2026-05-10",
+      "createdAt": "2026-05-25T20:39:25.112Z"
+    },
+    {
+      "id": "exp_2",
+      "shopId": "shp_demo_1",
+      "category": "Labor",
+      "amount": 12000,
+      "description": "Weekly labor wages (helper boys)",
+      "date": "2026-05-22",
+      "createdAt": "2026-05-25T20:39:25.112Z"
+    },
+    {
+      "id": "exp_3",
+      "shopId": "shp_demo_1",
+      "category": "Transport",
+      "amount": 3500,
+      "description": "Loading wheat bags from central grain store",
+      "date": "2026-05-24",
+      "createdAt": "2026-05-25T20:39:25.112Z"
+    }
+  ],
+  "paymentLogs": [
+    {
+      "id": "payl_1",
+      "shopId": "shp_demo_1",
+      "partyType": "customer",
+      "partyId": "cust_1",
+      "partyName": "Zaman Khan Bhatti",
+      "amount": 150,
+      "paymentMethod": "Cash",
+      "note": "Partial paid on INV-1001 sale",
+      "date": "2026-05-23",
+      "createdAt": "2026-05-25T20:39:25.112Z"
+    },
+    {
+      "id": "payl_2",
+      "shopId": "shp_demo_1",
+      "partyType": "supplier",
+      "partyId": "supp_1",
+      "partyName": "Sharif Grain Dealers",
+      "amount": 25000,
+      "paymentMethod": "Bank",
+      "note": "Advance payment on wheat supply contract",
+      "date": "2026-05-20",
+      "createdAt": "2026-05-25T20:39:25.112Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "not_1",
+      "shopId": "shp_demo_1",
+      "type": "low_stock",
+      "message": "Bran (Wheat Chokar) stock is sitting at 80 KG, below your alert threshold of 100 KG.",
+      "read": false,
+      "createdAt": "2026-05-25T20:39:25.112Z"
+    },
+    {
+      "id": "not_2",
+      "shopId": "shp_demo_1",
+      "type": "credit_reminder",
+      "message": "Customer Karamat Sweet Palace outstanding credit balance has spiked to PKR 12,500.",
+      "read": false,
+      "createdAt": "2026-05-25T20:39:25.112Z"
+    }
+  ],
+  "settings": [
+    {
+      "shopId": "shp_demo_1",
+      "currency": "PKR",
+      "language": "en",
+      "taxRate": 0,
+      "invoicePrefix": "INV",
+      "invoiceCounter": 1004,
+      "allowedFlourPrices": {
+        "Premium Chakki Atta": 80,
+        "Fine Maida": 105,
+        "Suji (Semolina)": 110,
+        "Bran (Wheat Chokar)": 55
+      }
+    }
+  ],
+  "userSessions": [],
+  "priceQuotes": []
+}

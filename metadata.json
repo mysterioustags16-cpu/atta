@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Remix: Remix: Atta Chakki SaaS",
+  "description": "Multi-tenant SaaS platform for Flour Shops, Atta Chakkis, and Grain Businesses to manage POS sales, credit ledgers, inventory, cash flow, profits, and reports with Gemini AI insights.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

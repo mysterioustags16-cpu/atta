@@ -419,6 +419,29 @@
       }
     }
   ],
-  "userSessions": [],
+  "userSessions": [
+    {
+      "id": "sess_kw7dkt4cr",
+      "userId": "usr_owner_1",
+      "deviceName": "Windows",
+      "browser": "Chrome 138.0.0.0",
+      "os": "Windows 10",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "lastActive": "2026-05-25T20:46:50.708Z",
+      "createdAt": "2026-05-25T20:46:50.379Z"
+    },
+    {
+      "id": "sess_5hbn8prvi",
+      "userId": "usr_admin_1",
+      "deviceName": "Windows",
+      "browser": "Chrome 138.0.0.0",
+      "os": "Windows 10",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "lastActive": "2026-05-25T20:47:08.186Z",
+      "createdAt": "2026-05-25T20:47:08.090Z"
+    }
+  ],
   "priceQuotes": []
 }
